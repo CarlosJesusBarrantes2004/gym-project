@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat';
+}
+
+.alert {
+  @apply fixed bottom-2 right-2 z-30 border rounded-md p-2 my-4 text-sm font-normal flex gap-2 justify-between shadow-md;
+}
+
+.alert-any {
+  @apply border-gray-500 bg-gray-200;
+}
+
+.alert-success {
+  @apply border-green-500 bg-green-200;
+}
+
+.alert-error {
+  @apply border-red-500 bg-red-200;
+}
+
+.alert-warning {
+  @apply border-yellow-500 bg-yellow-200;
+}

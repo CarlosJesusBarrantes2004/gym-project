@@ -1,0 +1,6 @@
+#Node.js
+server/.env
+server/node_modules
+
+#React
+client/node_modules
